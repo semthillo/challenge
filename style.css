@@ -1,0 +1,52 @@
+
+body{
+    text-align: center;
+    margin: 50px;
+   
+}
+
+.cal h2{
+    font-size: 2.5rem;
+}
+
+.container{
+    border: 3px solid rgb(77, 104, 119);
+    border-radius: 50%;
+    width:600px;
+    height: 300px;
+    margin: 0 50px 50px 320px;
+
+
+}
+
+.container form{
+    padding: 5rem;
+    
+    
+}
+.container form input{
+    
+    margin: 6px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(77, 104, 119) ;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    font-size: 19px;
+     
+}
+
+
+input:hover{
+    background-color: cadetblue;
+    border: 2px solid white;
+    border-style: outset;
+    
+}
+.container form i{
+    font-size: 2.2rem;
+    position: absolute;
+    z-index: 1000;
+    padding: 0.7rem;
+}

@@ -8,18 +8,26 @@
     <title>application de calcul</title>
 </head>
 <body>
+    <div id="header-container" ></div>
+
     <section class="cal">
         <h2>Application De Calcul</h2>
-        <div class="container">
+        <div class="container home">
             <form action="">
                 <i class='bx bx-plus-circle bx-tada bx-rotate-180' ></i><input type="button" value="Addition" id="addition" name="addition">
-                <input type="button" value="Soustraction" id="soustraction" name="soustraction">
-                <input type="button" value="Multiplication" id="Multiplication" name="Multiplication">
-                <input type="button" value="Division" id="Division" name="Division">
+
+
+                <i class='bx bx-minus bx-tada' style="padding-right: 1rem;" ></i><input type="button" value="Soustraction" id="soustraction" name="soustraction" style="padding-left: 1.9rem;">
+
+                <input type="button" value="Multiplication" id="multiplication" name="Multiplication" style="padding-left: 1rem;"><i class='bx bx-x bx-tada' style="left: 450px;" ></i>
+
+                <i class='bx bx-loader bx-tada bx-flip-horizontal' ></i><input type="button" value="Division" id="division" name="Division">
             </form>
             
         </div>
     </section>
+    <div id="footer"></div>
+    <script src="script.js"></script>
     
 </body>
 </html>
